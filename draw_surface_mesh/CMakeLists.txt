@@ -6,6 +6,5 @@ project(draw_surface_mesh)
 add_executable(draw_surface_mesh "draw_surface_mesh.cpp")
 
 if(CGAL_Qt6_FOUND)
-  #Á´½Ó¿â
   target_link_libraries(draw_surface_mesh PUBLIC CGAL::CGAL_Basic_viewer ${Boost_LIBRARIES})
 endif()

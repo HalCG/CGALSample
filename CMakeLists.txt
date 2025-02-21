@@ -33,7 +33,7 @@ set(EIGEN3_INCLUDE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/modules/eigen-3.4.0")
 # 添加Eigen的头文件路径
 include_directories(${EIGEN3_INCLUDE_DIR})
 
-
-
 # 添加子项目  
 add_subdirectory(draw_surface_mesh)  
+add_subdirectory(surface_reconstruction_from_point_cloud)
+
